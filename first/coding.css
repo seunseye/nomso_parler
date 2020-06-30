@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+    width: 500px;
+}
+
+form {
+    width: 500px;
+    text-align: center;
+}
+.name {
+    color: lightblue;
+    text-align: left;
+    height: 30px; width:50%;
+    border-radius: 5px;
+
+}   
+
+.email {
+    color: green;
+    text-align: left;
+    height: 30px; width:50%;
+    border-radius: 5px;
+}
+.age {
+    color: orange;
+    text-align: left;
+    height: 30px; width:50%;
+    border-radius: 5px;
+}
