@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container m-auto">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end py-1">
+            <a class="navbar-brand" href="#">LOGO</a>
+            <button class="btn ml-auto mr-1 text-white">Home</button>
+            <button class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div>
+                <ul class="navbar-nav text-right">
+                    <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item disabled">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item disabled">
+                        <a class="nav-link" href="#">Messages <button type="button" class="btn btn-success btn-sm m-0 p-0">12</button></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <h2 class="my-3">Dashboard:</h2>
+        <table class="table table-striped table-hover">
+             <thead class="thead-inverse">
+                 <tr>
+                 <th>Name</th>
+                 <th>Team</th>
+                 <th>All Star</th>
+                 <th>Remove</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                    <td>Messi</td>
+                    <td>Barcelona</td>
+                    <td>Yes</td>
+                    <td ><button type="button" class="btn btn-danger btn-sm m-1 py-1 px-2">x</button></td>
+                 </tr>
+             
+                 <tr>
+                    <td>Ronaldo</td>
+                    <td>Juventus</td>
+                    <td>Yes</td>
+                    <td ><button type="button" class="btn btn-danger btn-sm m-1 py-1 px-2">x</button></td>
+                 </tr>
+            
+                 <tr>
+                    <td>Neymar</td>
+                    <td>Psg</td>
+                    <td>Yes</td>
+                    <td ><button type="button" class="btn btn-danger btn-sm m-1 py-1 px-2">x</button></td>
+                 </tr>
+            
+                 <tr>
+                    <td>Hazard</td>
+                    <td>Madrid</td>
+                    <td>Yes<button type="button" class="btn btn-warning btn-sm mb-1 mx-1 p-0">Last</button></td>
+                    <!-- <td>Yes<botton class="Hazard my-2 mx-2 px-1" ></botton>last</td> -->
+                     <td><button type="button" class="btn btn-danger btn-sm m-1 py-1 px-2">x</button></td>
+                 </tr>
+             
+                 <tr>
+                    <td>Pulisic</td>
+                    <td>Chelsea</td>
+                    <td>Yes<button type="button" class="btn btn-success btn-sm mb-1 mx-1 p-0">First</button></td>
+                    <!-- <td>Yes<botton class="Pulisic my-2 mx-2 px-1" ></botton>first</td> -->
+                    <td ><button type="button" class="btn btn-danger btn-sm m-1 py-1 px-2">x</button></td>
+                 </tr>
+             </tbody>
+         </table>
+
+         <div class="container my-4">
+            <h3>Todos:</h3>
+            <div class="row">
+                <div class="container alert alert-success my-0">Feel good about Bootstrap</div>
+                <div class="container alert alert-info my-0">Feel informed about Bootstrap</div>
+                <div class="container alert alert-warning my-0">Feel warned about Bootstrap</div>
+                <div class="container alert alert-warning my-0">Maybe I should read the docs</div>
+                <div class="container alert alert-danger my-0">Danger zone</div>
+                <div class="container alert alert-danger my-0">I really should read the docs</div>
+            </div>
+            </div>
+       </div>
+</body>
+</html>
