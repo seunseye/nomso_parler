@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- personal style -->
+    <link rel="stylesheet" href="style.css">
+    <title>Todo-App</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">TodoApp</span>
+      </nav>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                  <h1 class="text-center" >My Todo List</h1>
+                  <!-- input and button -->
+                  <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                        <input class="form-control form-control-lg" type="text" placeholder="enter item" id="input">
+                    </div>
+                    <!-- button -->
+                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                        <button type="submit" class="btn btn-primary mb-2" id="submit-btn">Submit</button>
+                    </div>
+                </div>
+                <ul class="list-group mt-3" id="taskList">
+                    <!-- <li class="list-group-item checkbox">
+                        <div class="row">
+                            <div class="col-md-1 col-xs-1 ol-lg-1 col-sm-1">
+                                <label><input type="checkbox"></label>
+                            </div> -->
+                            <!-- text for the checkbox -->
+                            <!-- <div class="col-md-10 col-xs-10 col-lg-10 col-sm-10">
+                                first item
+                            </div> -->
+                            <!-- end of text -->
+                            <!-- delete icon -->
+                            <!-- <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1">
+                                <i class="fa fa-trash"></i>
+                            </div> -->
+                            <!-- end of delete icon -->
+                        <!-- </div>
+                    </li>  -->
+                </ul>
+              </div>
+          </div>
+      </div>
+​
+<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>
